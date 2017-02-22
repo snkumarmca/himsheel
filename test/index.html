@@ -1,0 +1,52 @@
+<!--Test for Himsheel International as a web developer
+Name : Sonu kumar
+Email id: snkumar.mca123@gmail.com
+-->
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<style type="text/css">
+	
+	.btn{
+	     font:bold 14px Arial;
+	     width:150px;
+	     height:50px;
+	     background-color:white;
+	     vertical-align: right;
+	     border-radius: 8px;
+	     margin: 8px 4px;
+	     border: 2px solid #f9a2dc;
+	     cursor: pointer;
+	     outline: none;
+	}     
+	.allbutton{
+     	 list-style-type:  none;
+     	 text-align: middle;
+     	 border-radius: 50px;
+     	 padding-top: 60px;
+     }	 
+    
+</style>
+
+</HEAD>
+<BODY>
+
+<!--HTML code for circle-->
+<div style="width:100%;"> 
+        <div style="float:left;">
+
+         <svg id="svg1" style="width: 6in; height: 6in">
+          <circle id="circle1" r="160" cx="300" cy="200" style="fill: #0220ff; stroke: white; stroke-width: 2px blue"/>
+         </svg>
+        </div> 
+<!--HTML code for button-->
+          <ul class="allbutton">
+             <span><h4>Click here to change color</h4></span>
+             <li><button class=btn style="color:#000" onclick=circle1.style.fill="#000";>BLACK</button></li>
+             <li><button class=btn  style="color:#0220ff" onclick=circle1.style.fill="blue";>BLUE</button></li>
+             <li><button class=btn style="color:#f00" onclick=circle1.style.fill="red";>RED</button></li>
+          </ul>
+          
+    </div> 
+</BODY>
+</HTML>
